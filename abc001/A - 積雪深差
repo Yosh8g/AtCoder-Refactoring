@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b;
+    cin >> a >> b;
+    cout << a - b << endl;
+    return 0;
+}
+// 数値が大きい場合long long型を使う意識をする
