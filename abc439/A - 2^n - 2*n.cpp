@@ -16,4 +16,4 @@ int main() {
     cout << pow - 2 * n << endl;
 }
 
-// static_cast<int>(pow(2, n) - 2 * n) << endl; だけでもいけるっぽい（cppの累乗めんどいな）
+// static_cast<int>(round(pow(2, n) - 2 * n)) << endl; だけでもいけるっぽい（cppの累乗めんどいな）
